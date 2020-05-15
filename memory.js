@@ -35,7 +35,15 @@ class Array {
       arr.push(19);
       arr.push(45);
       arr.push(10);
-   
+   // The length, capacity and memory of this array is 0(n2), 45, because the ending result would be 
+   //45, and free(ptr).
+  var main = [" ", " ", " "];
+   arr.pop();
+   arr.pop();
+   arr.pop();
+   //The capacity, length and address of this array O(n), length is 1 because their all empty strings,
+   //memory get(ptr).
+    
     // Create an instance of the Array class
     let arr = new Array();
 
