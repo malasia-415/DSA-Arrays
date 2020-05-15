@@ -27,6 +27,25 @@ class Array {
         this.length = 0;
         this.ptr = memory.allocate(this.length);
     }
+ function main(){
+
+    Array.SIZE_RATIO = 3;
+      arr.push(5);
+      arr.push(15);
+      arr.push(19);
+      arr.push(45);
+      arr.push(10);
+   
+    // Create an instance of the Array class
+    let arr = new Array();
+
+    // Add an item to the array
+   //Length capacity and memory address for this array is O(n) and allocate(size).
+   var main = ["5", "15", "19", "45", "10"];
+    arr.push(3);
+
+    console.log(arr);
+}
     
     if (fromIdx > toIdx) {
       // Iterate forwards
